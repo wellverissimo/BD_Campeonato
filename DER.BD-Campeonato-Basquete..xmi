@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.genmymodel.rds.core:Database xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.genmymodel.ecoreonline.graphic="http://com.genmymodel.ecoreonline.graphic/2.0" xmlns:com.genmymodel.rds.core="http://com.genmymodel.rds.core/1.0" xmlns:com.genmymodel.rds.graphic="http://com.genmymodel.rds.graphic/1.0" xmi:id="_qNUMMEX2Ee6SCbCxmAtZhg" name="BD-Campeonato-Basquete">
+  <eAnnotations xmi:id="_qNUMMEX2Ee6SCbCxmAtZhg0" source="genmymodel">
+    <details xmi:id="_qNUMMEX2Ee6SCbCxmAtZhg00" key="uuid" value="_qNUMMEX2Ee6SCbCxmAtZhg"/>
+    <details xmi:id="_qNUMMEX2Ee6SCbCxmAtZhg01" key="author" value="wellverissimo01"/>
+    <contents xsi:type="com.genmymodel.rds.graphic:RdsDiagram" xmi:id="_qNUMMkX2Ee6SCbCxmAtZhg" name="DatabaseDiagram" width="1200" height="862">
+      <eAnnotations xmi:id="_qNUMMkX2Ee6SCbCxmAtZhg0" source="genmymodel">
+        <details xmi:id="_qNUMMkX2Ee6SCbCxmAtZhg00" key="uuid" value="_qNUMMkX2Ee6SCbCxmAtZhg"/>
+      </eAnnotations>
+      <plane xmi:id="_qNUMMUX2Ee6SCbCxmAtZhg" modelElement="_qNUMMEX2Ee6SCbCxmAtZhg">
+        <eAnnotations xmi:id="_qNUMMUX2Ee6SCbCxmAtZhg0" source="genmymodel">
+          <details xmi:id="_qNUMMUX2Ee6SCbCxmAtZhg00" key="uuid" value="_qNUMMUX2Ee6SCbCxmAtZhg"/>
+        </eAnnotations>
+        <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:TableWidget" xmi:id="_sP1m0CgkEDylfJXSB87AoQ" modelElement="_sPxVYCgkEDylfJXSB87AoQ" anchors="_kg3BkCgnEDylfJXSB87AoQ _5phdYCgnEDylfJXSB87AoQ" x="21" y="263" width="160" height="160" minWidth="160" minHeight="160">
+          <eAnnotations xmi:id="_sP1m0CgkEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_sP1m0CgkEDylfJXSB87AoQ00" key="uuid" value="_sP1m0CgkEDylfJXSB87AoQ"/>
+          </eAnnotations>
+          <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ColumnWidget" xmi:id="_eDqmkCglEDylfJXSB87AoQ" modelElement="_eDpYcCglEDylfJXSB87AoQ" width="127" height="22">
+            <eAnnotations xmi:id="_eDqmkCglEDylfJXSB87AoQ0" source="genmymodel">
+              <details xmi:id="_eDqmkCglEDylfJXSB87AoQ00" key="uuid" value="_eDqmkCglEDylfJXSB87AoQ"/>
+            </eAnnotations>
+          </ownedDiagramElements>
+          <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ColumnWidget" xmi:id="_fL7kQCgnEDylfJXSB87AoQ" modelElement="_fL5IACgnEDylfJXSB87AoQ" width="133" height="22">
+            <eAnnotations xmi:id="_fL7kQCgnEDylfJXSB87AoQ0" source="genmymodel">
+              <details xmi:id="_fL7kQCgnEDylfJXSB87AoQ00" key="uuid" value="_fL7kQCgnEDylfJXSB87AoQ"/>
+            </eAnnotations>
+          </ownedDiagramElements>
+          <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ColumnWidget" xmi:id="_We-QoCgmEDylfJXSB87AoQ" modelElement="_We8bcCgmEDylfJXSB87AoQ" width="139" height="22">
+            <eAnnotations xmi:id="_We-QoCgmEDylfJXSB87AoQ0" source="genmymodel">
+              <details xmi:id="_We-QoCgmEDylfJXSB87AoQ00" key="uuid" value="_We-QoCgmEDylfJXSB87AoQ"/>
+            </eAnnotations>
+          </ownedDiagramElements>
+          <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ColumnWidget" xmi:id="_AB04sCgnEDylfJXSB87AoQ" modelElement="_AByccCgnEDylfJXSB87AoQ" width="134" height="22">
+            <eAnnotations xmi:id="_AB04sCgnEDylfJXSB87AoQ0" source="genmymodel">
+              <details xmi:id="_AB04sCgnEDylfJXSB87AoQ00" key="uuid" value="_AB04sCgnEDylfJXSB87AoQ"/>
+            </eAnnotations>
+          </ownedDiagramElements>
+          <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ColumnWidget" xmi:id="_NQ_osCgnEDylfJXSB87AoQ" modelElement="_NQ9zgCgnEDylfJXSB87AoQ" width="150" height="22">
+            <eAnnotations xmi:id="_NQ_osCgnEDylfJXSB87AoQ0" source="genmymodel">
+              <details xmi:id="_NQ_osCgnEDylfJXSB87AoQ00" key="uuid" value="_NQ_osCgnEDylfJXSB87AoQ"/>
+            </eAnnotations>
+          </ownedDiagramElements>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:TableWidget" xmi:id="_9SpAgCgkEDylfJXSB87AoQ" modelElement="_9SnyYCgkEDylfJXSB87AoQ" anchors="_kg3BkSgnEDylfJXSB87AoQ" x="292" y="256" width="160" height="174" minWidth="160" minHeight="174">
+          <eAnnotations xmi:id="_9SpAgCgkEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_9SpAgCgkEDylfJXSB87AoQ00" key="uuid" value="_9SpAgCgkEDylfJXSB87AoQ"/>
+          </eAnnotations>
+          <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ColumnWidget" xmi:id="_Ty9y0CglEDylfJXSB87AoQ" modelElement="_Ty7WkCglEDylfJXSB87AoQ" width="132" height="22">
+            <eAnnotations xmi:id="_Ty9y0CglEDylfJXSB87AoQ0" source="genmymodel">
+              <details xmi:id="_Ty9y0CglEDylfJXSB87AoQ00" key="uuid" value="_Ty9y0CglEDylfJXSB87AoQ"/>
+            </eAnnotations>
+          </ownedDiagramElements>
+          <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ColumnWidget" xmi:id="_0c22ICglEDylfJXSB87AoQ" modelElement="_0c1A8CglEDylfJXSB87AoQ" width="139" height="22">
+            <eAnnotations xmi:id="_0c22ICglEDylfJXSB87AoQ0" source="genmymodel">
+              <details xmi:id="_0c22ICglEDylfJXSB87AoQ00" key="uuid" value="_0c22ICglEDylfJXSB87AoQ"/>
+            </eAnnotations>
+          </ownedDiagramElements>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:TableWidget" xmi:id="_BhVOgCglEDylfJXSB87AoQ" modelElement="_BhTZUCglEDylfJXSB87AoQ" anchors="_5phdYSgnEDylfJXSB87AoQ _IAi3MCgxEDylfJXSB87AoQ _Sw40UCgxEDylfJXSB87AoQ _WceVQSgxEDylfJXSB87AoQ" x="209" y="57" width="160" height="160" minWidth="160" minHeight="160">
+          <eAnnotations xmi:id="_BhVOgCglEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_BhVOgCglEDylfJXSB87AoQ00" key="uuid" value="_BhVOgCglEDylfJXSB87AoQ"/>
+          </eAnnotations>
+          <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ColumnWidget" xmi:id="_jYxqECglEDylfJXSB87AoQ" modelElement="_jYwb8CglEDylfJXSB87AoQ" width="127" height="22">
+            <eAnnotations xmi:id="_jYxqECglEDylfJXSB87AoQ0" source="genmymodel">
+              <details xmi:id="_jYxqECglEDylfJXSB87AoQ00" key="uuid" value="_jYxqECglEDylfJXSB87AoQ"/>
+            </eAnnotations>
+          </ownedDiagramElements>
+          <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ColumnWidget" xmi:id="_y1T-oCgnEDylfJXSB87AoQ" modelElement="_y1SJcCgnEDylfJXSB87AoQ" width="133" height="22">
+            <eAnnotations xmi:id="_y1T-oCgnEDylfJXSB87AoQ0" source="genmymodel">
+              <details xmi:id="_y1T-oCgnEDylfJXSB87AoQ00" key="uuid" value="_y1T-oCgnEDylfJXSB87AoQ"/>
+            </eAnnotations>
+          </ownedDiagramElements>
+          <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ColumnWidget" xmi:id="_CC6KMCgoEDylfJXSB87AoQ" modelElement="_CC3G4CgoEDylfJXSB87AoQ" width="139" height="22">
+            <eAnnotations xmi:id="_CC6KMCgoEDylfJXSB87AoQ0" source="genmymodel">
+              <details xmi:id="_CC6KMCgoEDylfJXSB87AoQ00" key="uuid" value="_CC6KMCgoEDylfJXSB87AoQ"/>
+            </eAnnotations>
+          </ownedDiagramElements>
+          <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ColumnWidget" xmi:id="_0BaTcCgpEDylfJXSB87AoQ" modelElement="_0BXQICgpEDylfJXSB87AoQ" width="149" height="22">
+            <eAnnotations xmi:id="_0BaTcCgpEDylfJXSB87AoQ0" source="genmymodel">
+              <details xmi:id="_0BaTcCgpEDylfJXSB87AoQ00" key="uuid" value="_0BaTcCgpEDylfJXSB87AoQ"/>
+            </eAnnotations>
+          </ownedDiagramElements>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:TableWidget" xmi:id="_C66QkCglEDylfJXSB87AoQ" modelElement="_C64bYCglEDylfJXSB87AoQ" anchors="_IAiQICgxEDylfJXSB87AoQ _aa8V8SgxEDylfJXSB87AoQ" x="654" y="342" width="160" height="164" minWidth="160" minHeight="160">
+          <eAnnotations xmi:id="_C66QkCglEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_C66QkCglEDylfJXSB87AoQ00" key="uuid" value="_C66QkCglEDylfJXSB87AoQ"/>
+          </eAnnotations>
+          <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ColumnWidget" xmi:id="_wcpwECglEDylfJXSB87AoQ" modelElement="_wcoh8CglEDylfJXSB87AoQ" width="130" height="22">
+            <eAnnotations xmi:id="_wcpwECglEDylfJXSB87AoQ0" source="genmymodel">
+              <details xmi:id="_wcpwECglEDylfJXSB87AoQ00" key="uuid" value="_wcpwECglEDylfJXSB87AoQ"/>
+            </eAnnotations>
+          </ownedDiagramElements>
+          <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ColumnWidget" xmi:id="_jUuJICgoEDylfJXSB87AoQ" modelElement="_jUsT8CgoEDylfJXSB87AoQ" width="127" height="22">
+            <eAnnotations xmi:id="_jUuJICgoEDylfJXSB87AoQ0" source="genmymodel">
+              <details xmi:id="_jUuJICgoEDylfJXSB87AoQ00" key="uuid" value="_jUuJICgoEDylfJXSB87AoQ"/>
+            </eAnnotations>
+          </ownedDiagramElements>
+          <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ColumnWidget" xmi:id="_QG7ekCgoEDylfJXSB87AoQ" modelElement="_QG6QcCgoEDylfJXSB87AoQ" width="139" height="22">
+            <eAnnotations xmi:id="_QG7ekCgoEDylfJXSB87AoQ0" source="genmymodel">
+              <details xmi:id="_QG7ekCgoEDylfJXSB87AoQ00" key="uuid" value="_QG7ekCgoEDylfJXSB87AoQ"/>
+            </eAnnotations>
+          </ownedDiagramElements>
+          <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ColumnWidget" xmi:id="_0R74MCgoEDylfJXSB87AoQ" modelElement="_0R5b8CgoEDylfJXSB87AoQ" width="144" height="22">
+            <eAnnotations xmi:id="_0R74MCgoEDylfJXSB87AoQ0" source="genmymodel">
+              <details xmi:id="_0R74MCgoEDylfJXSB87AoQ00" key="uuid" value="_0R74MCgoEDylfJXSB87AoQ"/>
+            </eAnnotations>
+          </ownedDiagramElements>
+          <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ColumnWidget" xmi:id="_Fa91sCgpEDylfJXSB87AoQ" modelElement="_Fa7ZcCgpEDylfJXSB87AoQ" width="145" height="22">
+            <eAnnotations xmi:id="_Fa91sCgpEDylfJXSB87AoQ0" source="genmymodel">
+              <details xmi:id="_Fa91sCgpEDylfJXSB87AoQ00" key="uuid" value="_Fa91sCgpEDylfJXSB87AoQ"/>
+            </eAnnotations>
+          </ownedDiagramElements>
+          <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ColumnWidget" xmi:id="_IjKVsCgpEDylfJXSB87AoQ" modelElement="_IjHSYCgpEDylfJXSB87AoQ" width="139" height="22">
+            <eAnnotations xmi:id="_IjKVsCgpEDylfJXSB87AoQ0" source="genmymodel">
+              <details xmi:id="_IjKVsCgpEDylfJXSB87AoQ00" key="uuid" value="_IjKVsCgpEDylfJXSB87AoQ"/>
+            </eAnnotations>
+          </ownedDiagramElements>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:TableWidget" xmi:id="_GsnAkCglEDylfJXSB87AoQ" modelElement="_GslLYCglEDylfJXSB87AoQ" anchors="_Sw4NQCgxEDylfJXSB87AoQ _WceVQCgxEDylfJXSB87AoQ _aa8V8CgxEDylfJXSB87AoQ" x="744" y="14" width="179" height="187" minWidth="160" minHeight="160">
+          <eAnnotations xmi:id="_GsnAkCglEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_GsnAkCglEDylfJXSB87AoQ00" key="uuid" value="_GsnAkCglEDylfJXSB87AoQ"/>
+          </eAnnotations>
+          <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ColumnWidget" xmi:id="_HmwowCgyEDylfJXSB87AoQ" modelElement="_HmrJMCgyEDylfJXSB87AoQ" width="128" height="22">
+            <eAnnotations xmi:id="_HmwowCgyEDylfJXSB87AoQ0" source="genmymodel">
+              <details xmi:id="_HmwowCgyEDylfJXSB87AoQ00" key="uuid" value="_HmwowCgyEDylfJXSB87AoQ"/>
+            </eAnnotations>
+          </ownedDiagramElements>
+          <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ColumnWidget" xmi:id="_UX_rICgoEDylfJXSB87AoQ" modelElement="_UX918CgoEDylfJXSB87AoQ" width="130" height="22">
+            <eAnnotations xmi:id="_UX_rICgoEDylfJXSB87AoQ0" source="genmymodel">
+              <details xmi:id="_UX_rICgoEDylfJXSB87AoQ00" key="uuid" value="_UX_rICgoEDylfJXSB87AoQ"/>
+            </eAnnotations>
+          </ownedDiagramElements>
+          <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ColumnWidget" xmi:id="_RbEnACgoEDylfJXSB87AoQ" modelElement="_RbD_8CgoEDylfJXSB87AoQ" width="84" height="22">
+            <eAnnotations xmi:id="_RbEnACgoEDylfJXSB87AoQ0" source="genmymodel">
+              <details xmi:id="_RbEnACgoEDylfJXSB87AoQ00" key="uuid" value="_RbEnACgoEDylfJXSB87AoQ"/>
+            </eAnnotations>
+          </ownedDiagramElements>
+          <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ColumnWidget" xmi:id="_ThDcECgoEDylfJXSB87AoQ" modelElement="_ThCN8CgoEDylfJXSB87AoQ" width="106" height="22">
+            <eAnnotations xmi:id="_ThDcECgoEDylfJXSB87AoQ0" source="genmymodel">
+              <details xmi:id="_ThDcECgoEDylfJXSB87AoQ00" key="uuid" value="_ThDcECgoEDylfJXSB87AoQ"/>
+            </eAnnotations>
+          </ownedDiagramElements>
+          <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ColumnWidget" xmi:id="_ZrXMwCgpEDylfJXSB87AoQ" modelElement="_ZrUwgCgpEDylfJXSB87AoQ" width="135" height="22">
+            <eAnnotations xmi:id="_ZrXMwCgpEDylfJXSB87AoQ0" source="genmymodel">
+              <details xmi:id="_ZrXMwCgpEDylfJXSB87AoQ00" key="uuid" value="_ZrXMwCgpEDylfJXSB87AoQ"/>
+            </eAnnotations>
+          </ownedDiagramElements>
+          <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ColumnWidget" xmi:id="_PMztwCgqEDylfJXSB87AoQ" modelElement="_PMwqcCgqEDylfJXSB87AoQ" width="129" height="22">
+            <eAnnotations xmi:id="_PMztwCgqEDylfJXSB87AoQ0" source="genmymodel">
+              <details xmi:id="_PMztwCgqEDylfJXSB87AoQ00" key="uuid" value="_PMztwCgqEDylfJXSB87AoQ"/>
+            </eAnnotations>
+          </ownedDiagramElements>
+          <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ColumnWidget" xmi:id="_DRQTACgwEDylfJXSB87AoQ" modelElement="_DRMBkCgwEDylfJXSB87AoQ" width="175" height="22">
+            <eAnnotations xmi:id="_DRQTACgwEDylfJXSB87AoQ0" source="genmymodel">
+              <details xmi:id="_DRQTACgwEDylfJXSB87AoQ00" key="uuid" value="_DRQTACgwEDylfJXSB87AoQ"/>
+            </eAnnotations>
+          </ownedDiagramElements>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.ecoreonline.graphic:AnchorWidget" xmi:id="_kg3BkCgnEDylfJXSB87AoQ" modelElement="_fL5IACgnEDylfJXSB87AoQ" x="181" y="321" targetSegments="_kg42wignEDylfJXSB87AoQ" attachedElement="_sP1m0CgkEDylfJXSB87AoQ" straight="true">
+          <eAnnotations xmi:id="_kg3BkCgnEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_kg3BkCgnEDylfJXSB87AoQ00" key="uuid" value="_kg3BkCgnEDylfJXSB87AoQ"/>
+          </eAnnotations>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.ecoreonline.graphic:AnchorWidget" xmi:id="_kg3BkSgnEDylfJXSB87AoQ" modelElement="_Ty7WkCglEDylfJXSB87AoQ" x="292" y="291" sourceSegments="_kg5d0SgnEDylfJXSB87AoQ" attachedElement="_9SpAgCgkEDylfJXSB87AoQ">
+          <eAnnotations xmi:id="_kg3BkSgnEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_kg3BkSgnEDylfJXSB87AoQ00" key="uuid" value="_kg3BkSgnEDylfJXSB87AoQ"/>
+          </eAnnotations>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ReferenceSegment" xmi:id="_kg42wignEDylfJXSB87AoQ" modelElement="_kg1zcCgnEDylfJXSB87AoQ" sourceConnector="_kg3BkCgnEDylfJXSB87AoQ" targetConnector="_kg42wCgnEDylfJXSB87AoQ" x="179" y="311" width="55">
+          <eAnnotations xmi:id="_kg42wignEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_kg42wignEDylfJXSB87AoQ00" key="uuid" value="_kg42wignEDylfJXSB87AoQ"/>
+          </eAnnotations>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ReferenceSegment" xmi:id="_kg5d0CgnEDylfJXSB87AoQ" modelElement="_kg1zcCgnEDylfJXSB87AoQ" sourceConnector="_kg42wCgnEDylfJXSB87AoQ" targetConnector="_kg42wSgnEDylfJXSB87AoQ" x="230" y="281" height="30">
+          <eAnnotations xmi:id="_kg5d0CgnEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_kg5d0CgnEDylfJXSB87AoQ00" key="uuid" value="_kg5d0CgnEDylfJXSB87AoQ"/>
+          </eAnnotations>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ReferenceSegment" xmi:id="_kg5d0SgnEDylfJXSB87AoQ" modelElement="_kg1zcCgnEDylfJXSB87AoQ" sourceConnector="_kg42wSgnEDylfJXSB87AoQ" targetConnector="_kg3BkSgnEDylfJXSB87AoQ" x="230" y="281" width="56">
+          <eAnnotations xmi:id="_kg5d0SgnEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_kg5d0SgnEDylfJXSB87AoQ00" key="uuid" value="_kg5d0SgnEDylfJXSB87AoQ"/>
+          </eAnnotations>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ReferenceWaypoint" xmi:id="_kg42wCgnEDylfJXSB87AoQ" modelElement="_kg1zcCgnEDylfJXSB87AoQ" x="236" y="321" targetSegments="_kg5d0CgnEDylfJXSB87AoQ" sourceSegments="_kg42wignEDylfJXSB87AoQ">
+          <eAnnotations xmi:id="_kg42wCgnEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_kg42wCgnEDylfJXSB87AoQ00" key="uuid" value="_kg42wCgnEDylfJXSB87AoQ"/>
+          </eAnnotations>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ReferenceWaypoint" xmi:id="_kg42wSgnEDylfJXSB87AoQ" modelElement="_kg1zcCgnEDylfJXSB87AoQ" x="236" y="291" targetSegments="_kg5d0SgnEDylfJXSB87AoQ" sourceSegments="_kg5d0CgnEDylfJXSB87AoQ">
+          <eAnnotations xmi:id="_kg42wSgnEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_kg42wSgnEDylfJXSB87AoQ00" key="uuid" value="_kg42wSgnEDylfJXSB87AoQ"/>
+          </eAnnotations>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.ecoreonline.graphic:AnchorWidget" xmi:id="_5phdYCgnEDylfJXSB87AoQ" modelElement="_eDpYcCglEDylfJXSB87AoQ" x="181" y="298" targetSegments="_5piEcSgnEDylfJXSB87AoQ" attachedElement="_sP1m0CgkEDylfJXSB87AoQ" straight="true">
+          <eAnnotations xmi:id="_5phdYCgnEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_5phdYCgnEDylfJXSB87AoQ00" key="uuid" value="_5phdYCgnEDylfJXSB87AoQ"/>
+          </eAnnotations>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.ecoreonline.graphic:AnchorWidget" xmi:id="_5phdYSgnEDylfJXSB87AoQ" modelElement="_y1SJcCgnEDylfJXSB87AoQ" x="209" y="115" sourceSegments="_5piEcygnEDylfJXSB87AoQ" attachedElement="_BhVOgCglEDylfJXSB87AoQ">
+          <eAnnotations xmi:id="_5phdYSgnEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_5phdYSgnEDylfJXSB87AoQ00" key="uuid" value="_5phdYSgnEDylfJXSB87AoQ"/>
+          </eAnnotations>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ReferenceSegment" xmi:id="_5piEcSgnEDylfJXSB87AoQ" modelElement="_5pgPQCgnEDylfJXSB87AoQ" sourceConnector="_5phdYCgnEDylfJXSB87AoQ" targetConnector="_5phdYignEDylfJXSB87AoQ" x="179" y="288" width="14">
+          <eAnnotations xmi:id="_5piEcSgnEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_5piEcSgnEDylfJXSB87AoQ00" key="uuid" value="_5piEcSgnEDylfJXSB87AoQ"/>
+          </eAnnotations>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ReferenceSegment" xmi:id="_5piEcignEDylfJXSB87AoQ" modelElement="_5pgPQCgnEDylfJXSB87AoQ" sourceConnector="_5phdYignEDylfJXSB87AoQ" targetConnector="_5piEcCgnEDylfJXSB87AoQ" x="229" y="105" height="183">
+          <eAnnotations xmi:id="_5piEcignEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_5piEcignEDylfJXSB87AoQ00" key="uuid" value="_5piEcignEDylfJXSB87AoQ"/>
+          </eAnnotations>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ReferenceSegment" xmi:id="_5piEcygnEDylfJXSB87AoQ" modelElement="_5pgPQCgnEDylfJXSB87AoQ" sourceConnector="_5piEcCgnEDylfJXSB87AoQ" targetConnector="_5phdYSgnEDylfJXSB87AoQ" x="175" y="105" width="14">
+          <eAnnotations xmi:id="_5piEcygnEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_5piEcygnEDylfJXSB87AoQ00" key="uuid" value="_5piEcygnEDylfJXSB87AoQ"/>
+          </eAnnotations>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ReferenceWaypoint" xmi:id="_5phdYignEDylfJXSB87AoQ" modelElement="_5pgPQCgnEDylfJXSB87AoQ" x="195" y="298" targetSegments="_5piEcignEDylfJXSB87AoQ" sourceSegments="_5piEcSgnEDylfJXSB87AoQ">
+          <eAnnotations xmi:id="_5phdYignEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_5phdYignEDylfJXSB87AoQ00" key="uuid" value="_5phdYignEDylfJXSB87AoQ"/>
+          </eAnnotations>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ReferenceWaypoint" xmi:id="_5piEcCgnEDylfJXSB87AoQ" modelElement="_5pgPQCgnEDylfJXSB87AoQ" x="195" y="115" targetSegments="_5piEcygnEDylfJXSB87AoQ" sourceSegments="_5piEcignEDylfJXSB87AoQ">
+          <eAnnotations xmi:id="_5piEcCgnEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_5piEcCgnEDylfJXSB87AoQ00" key="uuid" value="_5piEcCgnEDylfJXSB87AoQ"/>
+          </eAnnotations>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.ecoreonline.graphic:AnchorWidget" xmi:id="_IAiQICgxEDylfJXSB87AoQ" modelElement="_jUsT8CgoEDylfJXSB87AoQ" x="654" y="400" targetSegments="_IAi3MygxEDylfJXSB87AoQ" attachedElement="_C66QkCglEDylfJXSB87AoQ" straight="true">
+          <eAnnotations xmi:id="_IAiQICgxEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_IAiQICgxEDylfJXSB87AoQ00" key="uuid" value="_IAiQICgxEDylfJXSB87AoQ"/>
+          </eAnnotations>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.ecoreonline.graphic:AnchorWidget" xmi:id="_IAi3MCgxEDylfJXSB87AoQ" modelElement="_jYwb8CglEDylfJXSB87AoQ" x="369" y="92" sourceSegments="_IAi3NSgxEDylfJXSB87AoQ" attachedElement="_BhVOgCglEDylfJXSB87AoQ">
+          <eAnnotations xmi:id="_IAi3MCgxEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_IAi3MCgxEDylfJXSB87AoQ00" key="uuid" value="_IAi3MCgxEDylfJXSB87AoQ"/>
+          </eAnnotations>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ReferenceSegment" xmi:id="_IAi3MygxEDylfJXSB87AoQ" modelElement="_IAhCACgxEDylfJXSB87AoQ" sourceConnector="_IAiQICgxEDylfJXSB87AoQ" targetConnector="_IAi3MSgxEDylfJXSB87AoQ" x="387" y="390" width="143">
+          <eAnnotations xmi:id="_IAi3MygxEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_IAi3MygxEDylfJXSB87AoQ00" key="uuid" value="_IAi3MygxEDylfJXSB87AoQ"/>
+          </eAnnotations>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ReferenceSegment" xmi:id="_IAi3NCgxEDylfJXSB87AoQ" modelElement="_IAhCACgxEDylfJXSB87AoQ" sourceConnector="_IAi3MSgxEDylfJXSB87AoQ" targetConnector="_IAi3MigxEDylfJXSB87AoQ" x="387" y="82" height="308">
+          <eAnnotations xmi:id="_IAi3NCgxEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_IAi3NCgxEDylfJXSB87AoQ00" key="uuid" value="_IAi3NCgxEDylfJXSB87AoQ"/>
+          </eAnnotations>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ReferenceSegment" xmi:id="_IAi3NSgxEDylfJXSB87AoQ" modelElement="_IAhCACgxEDylfJXSB87AoQ" sourceConnector="_IAi3MigxEDylfJXSB87AoQ" targetConnector="_IAi3MCgxEDylfJXSB87AoQ" x="359" y="82" width="142">
+          <eAnnotations xmi:id="_IAi3NSgxEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_IAi3NSgxEDylfJXSB87AoQ00" key="uuid" value="_IAi3NSgxEDylfJXSB87AoQ"/>
+          </eAnnotations>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ReferenceWaypoint" xmi:id="_IAi3MSgxEDylfJXSB87AoQ" modelElement="_IAhCACgxEDylfJXSB87AoQ" x="511" y="400" targetSegments="_IAi3NCgxEDylfJXSB87AoQ" sourceSegments="_IAi3MygxEDylfJXSB87AoQ">
+          <eAnnotations xmi:id="_IAi3MSgxEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_IAi3MSgxEDylfJXSB87AoQ00" key="uuid" value="_IAi3MSgxEDylfJXSB87AoQ"/>
+          </eAnnotations>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ReferenceWaypoint" xmi:id="_IAi3MigxEDylfJXSB87AoQ" modelElement="_IAhCACgxEDylfJXSB87AoQ" x="511" y="92" targetSegments="_IAi3NSgxEDylfJXSB87AoQ" sourceSegments="_IAi3NCgxEDylfJXSB87AoQ">
+          <eAnnotations xmi:id="_IAi3MigxEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_IAi3MigxEDylfJXSB87AoQ00" key="uuid" value="_IAi3MigxEDylfJXSB87AoQ"/>
+          </eAnnotations>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.ecoreonline.graphic:AnchorWidget" xmi:id="_Sw4NQCgxEDylfJXSB87AoQ" modelElement="_ZrUwgCgpEDylfJXSB87AoQ" x="744" y="141" targetSegments="_Sw40UygxEDylfJXSB87AoQ" attachedElement="_GsnAkCglEDylfJXSB87AoQ" straight="true">
+          <eAnnotations xmi:id="_Sw4NQCgxEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_Sw4NQCgxEDylfJXSB87AoQ00" key="uuid" value="_Sw4NQCgxEDylfJXSB87AoQ"/>
+          </eAnnotations>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.ecoreonline.graphic:AnchorWidget" xmi:id="_Sw40UCgxEDylfJXSB87AoQ" modelElement="_jYwb8CglEDylfJXSB87AoQ" x="369" y="92" sourceSegments="_Sw40VSgxEDylfJXSB87AoQ" attachedElement="_BhVOgCglEDylfJXSB87AoQ">
+          <eAnnotations xmi:id="_Sw40UCgxEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_Sw40UCgxEDylfJXSB87AoQ00" key="uuid" value="_Sw40UCgxEDylfJXSB87AoQ"/>
+          </eAnnotations>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ReferenceSegment" xmi:id="_Sw40UygxEDylfJXSB87AoQ" modelElement="_Sw2_ICgxEDylfJXSB87AoQ" sourceConnector="_Sw4NQCgxEDylfJXSB87AoQ" targetConnector="_Sw40USgxEDylfJXSB87AoQ" x="510" y="131" width="188">
+          <eAnnotations xmi:id="_Sw40UygxEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_Sw40UygxEDylfJXSB87AoQ00" key="uuid" value="_Sw40UygxEDylfJXSB87AoQ"/>
+          </eAnnotations>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ReferenceSegment" xmi:id="_Sw40VCgxEDylfJXSB87AoQ" modelElement="_Sw2_ICgxEDylfJXSB87AoQ" sourceConnector="_Sw40USgxEDylfJXSB87AoQ" targetConnector="_Sw40UigxEDylfJXSB87AoQ" x="510" y="82" height="49">
+          <eAnnotations xmi:id="_Sw40VCgxEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_Sw40VCgxEDylfJXSB87AoQ00" key="uuid" value="_Sw40VCgxEDylfJXSB87AoQ"/>
+          </eAnnotations>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ReferenceSegment" xmi:id="_Sw40VSgxEDylfJXSB87AoQ" modelElement="_Sw2_ICgxEDylfJXSB87AoQ" sourceConnector="_Sw40UigxEDylfJXSB87AoQ" targetConnector="_Sw40UCgxEDylfJXSB87AoQ" x="359" y="82" width="187">
+          <eAnnotations xmi:id="_Sw40VSgxEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_Sw40VSgxEDylfJXSB87AoQ00" key="uuid" value="_Sw40VSgxEDylfJXSB87AoQ"/>
+          </eAnnotations>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ReferenceWaypoint" xmi:id="_Sw40USgxEDylfJXSB87AoQ" modelElement="_Sw2_ICgxEDylfJXSB87AoQ" x="556" y="141" targetSegments="_Sw40VCgxEDylfJXSB87AoQ" sourceSegments="_Sw40UygxEDylfJXSB87AoQ">
+          <eAnnotations xmi:id="_Sw40USgxEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_Sw40USgxEDylfJXSB87AoQ00" key="uuid" value="_Sw40USgxEDylfJXSB87AoQ"/>
+          </eAnnotations>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ReferenceWaypoint" xmi:id="_Sw40UigxEDylfJXSB87AoQ" modelElement="_Sw2_ICgxEDylfJXSB87AoQ" x="556" y="92" targetSegments="_Sw40VSgxEDylfJXSB87AoQ" sourceSegments="_Sw40VCgxEDylfJXSB87AoQ">
+          <eAnnotations xmi:id="_Sw40UigxEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_Sw40UigxEDylfJXSB87AoQ00" key="uuid" value="_Sw40UigxEDylfJXSB87AoQ"/>
+          </eAnnotations>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.ecoreonline.graphic:AnchorWidget" xmi:id="_WceVQCgxEDylfJXSB87AoQ" modelElement="_PMwqcCgqEDylfJXSB87AoQ" x="744" y="164" targetSegments="_Wce8USgxEDylfJXSB87AoQ" attachedElement="_GsnAkCglEDylfJXSB87AoQ" straight="true">
+          <eAnnotations xmi:id="_WceVQCgxEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_WceVQCgxEDylfJXSB87AoQ00" key="uuid" value="_WceVQCgxEDylfJXSB87AoQ"/>
+          </eAnnotations>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.ecoreonline.graphic:AnchorWidget" xmi:id="_WceVQSgxEDylfJXSB87AoQ" modelElement="_jYwb8CglEDylfJXSB87AoQ" x="369" y="92" sourceSegments="_Wce8UygxEDylfJXSB87AoQ" attachedElement="_BhVOgCglEDylfJXSB87AoQ">
+          <eAnnotations xmi:id="_WceVQSgxEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_WceVQSgxEDylfJXSB87AoQ00" key="uuid" value="_WceVQSgxEDylfJXSB87AoQ"/>
+          </eAnnotations>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ReferenceSegment" xmi:id="_Wce8USgxEDylfJXSB87AoQ" modelElement="_WcdHICgxEDylfJXSB87AoQ" sourceConnector="_WceVQCgxEDylfJXSB87AoQ" targetConnector="_WceVQigxEDylfJXSB87AoQ" x="510" y="154" width="188">
+          <eAnnotations xmi:id="_Wce8USgxEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_Wce8USgxEDylfJXSB87AoQ00" key="uuid" value="_Wce8USgxEDylfJXSB87AoQ"/>
+          </eAnnotations>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ReferenceSegment" xmi:id="_Wce8UigxEDylfJXSB87AoQ" modelElement="_WcdHICgxEDylfJXSB87AoQ" sourceConnector="_WceVQigxEDylfJXSB87AoQ" targetConnector="_Wce8UCgxEDylfJXSB87AoQ" x="510" y="82" height="72">
+          <eAnnotations xmi:id="_Wce8UigxEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_Wce8UigxEDylfJXSB87AoQ00" key="uuid" value="_Wce8UigxEDylfJXSB87AoQ"/>
+          </eAnnotations>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ReferenceSegment" xmi:id="_Wce8UygxEDylfJXSB87AoQ" modelElement="_WcdHICgxEDylfJXSB87AoQ" sourceConnector="_Wce8UCgxEDylfJXSB87AoQ" targetConnector="_WceVQSgxEDylfJXSB87AoQ" x="359" y="82" width="187">
+          <eAnnotations xmi:id="_Wce8UygxEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_Wce8UygxEDylfJXSB87AoQ00" key="uuid" value="_Wce8UygxEDylfJXSB87AoQ"/>
+          </eAnnotations>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ReferenceWaypoint" xmi:id="_WceVQigxEDylfJXSB87AoQ" modelElement="_WcdHICgxEDylfJXSB87AoQ" x="556" y="164" targetSegments="_Wce8UigxEDylfJXSB87AoQ" sourceSegments="_Wce8USgxEDylfJXSB87AoQ">
+          <eAnnotations xmi:id="_WceVQigxEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_WceVQigxEDylfJXSB87AoQ00" key="uuid" value="_WceVQigxEDylfJXSB87AoQ"/>
+          </eAnnotations>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ReferenceWaypoint" xmi:id="_Wce8UCgxEDylfJXSB87AoQ" modelElement="_WcdHICgxEDylfJXSB87AoQ" x="556" y="92" targetSegments="_Wce8UygxEDylfJXSB87AoQ" sourceSegments="_Wce8UigxEDylfJXSB87AoQ">
+          <eAnnotations xmi:id="_Wce8UCgxEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_Wce8UCgxEDylfJXSB87AoQ00" key="uuid" value="_Wce8UCgxEDylfJXSB87AoQ"/>
+          </eAnnotations>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.ecoreonline.graphic:AnchorWidget" xmi:id="_aa8V8CgxEDylfJXSB87AoQ" modelElement="_UX918CgoEDylfJXSB87AoQ" x="923" y="72" targetSegments="_aa8V9CgxEDylfJXSB87AoQ" attachedElement="_GsnAkCglEDylfJXSB87AoQ" straight="true">
+          <eAnnotations xmi:id="_aa8V8CgxEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_aa8V8CgxEDylfJXSB87AoQ00" key="uuid" value="_aa8V8CgxEDylfJXSB87AoQ"/>
+          </eAnnotations>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.ecoreonline.graphic:AnchorWidget" xmi:id="_aa8V8SgxEDylfJXSB87AoQ" modelElement="_wcoh8CglEDylfJXSB87AoQ" x="814" y="377" sourceSegments="_aa89ACgxEDylfJXSB87AoQ" attachedElement="_C66QkCglEDylfJXSB87AoQ">
+          <eAnnotations xmi:id="_aa8V8SgxEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_aa8V8SgxEDylfJXSB87AoQ00" key="uuid" value="_aa8V8SgxEDylfJXSB87AoQ"/>
+          </eAnnotations>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ReferenceSegment" xmi:id="_aa8V9CgxEDylfJXSB87AoQ" modelElement="_aa7H0CgxEDylfJXSB87AoQ" sourceConnector="_aa8V8CgxEDylfJXSB87AoQ" targetConnector="_aa8V8igxEDylfJXSB87AoQ" x="834" y="62" width="50">
+          <eAnnotations xmi:id="_aa8V9CgxEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_aa8V9CgxEDylfJXSB87AoQ00" key="uuid" value="_aa8V9CgxEDylfJXSB87AoQ"/>
+          </eAnnotations>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ReferenceSegment" xmi:id="_aa8V9SgxEDylfJXSB87AoQ" modelElement="_aa7H0CgxEDylfJXSB87AoQ" sourceConnector="_aa8V8igxEDylfJXSB87AoQ" targetConnector="_aa8V8ygxEDylfJXSB87AoQ" x="884" y="62" height="305">
+          <eAnnotations xmi:id="_aa8V9SgxEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_aa8V9SgxEDylfJXSB87AoQ00" key="uuid" value="_aa8V9SgxEDylfJXSB87AoQ"/>
+          </eAnnotations>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ReferenceSegment" xmi:id="_aa89ACgxEDylfJXSB87AoQ" modelElement="_aa7H0CgxEDylfJXSB87AoQ" sourceConnector="_aa8V8ygxEDylfJXSB87AoQ" targetConnector="_aa8V8SgxEDylfJXSB87AoQ" x="804" y="367" width="159">
+          <eAnnotations xmi:id="_aa89ACgxEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_aa89ACgxEDylfJXSB87AoQ00" key="uuid" value="_aa89ACgxEDylfJXSB87AoQ"/>
+          </eAnnotations>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ReferenceWaypoint" xmi:id="_aa8V8igxEDylfJXSB87AoQ" modelElement="_aa7H0CgxEDylfJXSB87AoQ" x="973" y="72" targetSegments="_aa8V9SgxEDylfJXSB87AoQ" sourceSegments="_aa8V9CgxEDylfJXSB87AoQ">
+          <eAnnotations xmi:id="_aa8V8igxEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_aa8V8igxEDylfJXSB87AoQ00" key="uuid" value="_aa8V8igxEDylfJXSB87AoQ"/>
+          </eAnnotations>
+        </ownedDiagramElements>
+        <ownedDiagramElements xsi:type="com.genmymodel.rds.graphic:ReferenceWaypoint" xmi:id="_aa8V8ygxEDylfJXSB87AoQ" modelElement="_aa7H0CgxEDylfJXSB87AoQ" x="973" y="377" targetSegments="_aa89ACgxEDylfJXSB87AoQ" sourceSegments="_aa8V9SgxEDylfJXSB87AoQ">
+          <eAnnotations xmi:id="_aa8V8ygxEDylfJXSB87AoQ0" source="genmymodel">
+            <details xmi:id="_aa8V8ygxEDylfJXSB87AoQ00" key="uuid" value="_aa8V8ygxEDylfJXSB87AoQ"/>
+          </eAnnotations>
+        </ownedDiagramElements>
+      </plane>
+    </contents>
+  </eAnnotations>
+  <elements xsi:type="com.genmymodel.rds.core:Table" xmi:id="_sPxVYCgkEDylfJXSB87AoQ" name="Jogador">
+    <eAnnotations xmi:id="_sPxVYCgkEDylfJXSB87AoQ0" source="genmymodel">
+      <details xmi:id="_sPxVYCgkEDylfJXSB87AoQ00" key="uuid" value="_sPxVYCgkEDylfJXSB87AoQ"/>
+    </eAnnotations>
+    <columns xmi:id="_eDpYcCglEDylfJXSB87AoQ" name="idEquipe" nullable="false" PK="true" size="25" foreignReferences="_5pgPQCgnEDylfJXSB87AoQ">
+      <eAnnotations xmi:id="_eDpYcCglEDylfJXSB87AoQ0" source="genmymodel">
+        <details xmi:id="_eDpYcCglEDylfJXSB87AoQ00" key="uuid" value="_eDpYcCglEDylfJXSB87AoQ"/>
+      </eAnnotations>
+      <type href="pathmap://RDS_LIBRARIES/RdsPrimitiveTypes.library.rds#//@elements.5"/>
+    </columns>
+    <columns xmi:id="_fL5IACgnEDylfJXSB87AoQ" name="IdPosicao" size="15" foreignReferences="_kg1zcCgnEDylfJXSB87AoQ">
+      <eAnnotations xmi:id="_fL5IACgnEDylfJXSB87AoQ0" source="genmymodel">
+        <details xmi:id="_fL5IACgnEDylfJXSB87AoQ00" key="uuid" value="_fL5IACgnEDylfJXSB87AoQ"/>
+      </eAnnotations>
+      <type href="pathmap://RDS_LIBRARIES/RdsPrimitiveTypes.library.rds#//@elements.5"/>
+    </columns>
+    <columns xmi:id="_We8bcCgmEDylfJXSB87AoQ" name="Nome" size="30">
+      <eAnnotations xmi:id="_We8bcCgmEDylfJXSB87AoQ0" source="genmymodel">
+        <details xmi:id="_We8bcCgmEDylfJXSB87AoQ00" key="uuid" value="_We8bcCgmEDylfJXSB87AoQ"/>
+      </eAnnotations>
+      <type href="pathmap://RDS_LIBRARIES/RdsPrimitiveTypes.library.rds#//@elements.1"/>
+    </columns>
+    <columns xmi:id="_AByccCgnEDylfJXSB87AoQ" name="DtNascimento">
+      <eAnnotations xmi:id="_AByccCgnEDylfJXSB87AoQ0" source="genmymodel">
+        <details xmi:id="_AByccCgnEDylfJXSB87AoQ00" key="uuid" value="_AByccCgnEDylfJXSB87AoQ"/>
+      </eAnnotations>
+      <type href="pathmap://RDS_LIBRARIES/RdsPrimitiveTypes.library.rds#//@elements.13"/>
+    </columns>
+    <columns xmi:id="_NQ9zgCgnEDylfJXSB87AoQ" name="NroCamiseta">
+      <eAnnotations xmi:id="_NQ9zgCgnEDylfJXSB87AoQ0" source="genmymodel">
+        <details xmi:id="_NQ9zgCgnEDylfJXSB87AoQ00" key="uuid" value="_NQ9zgCgnEDylfJXSB87AoQ"/>
+      </eAnnotations>
+      <type href="pathmap://RDS_LIBRARIES/RdsPrimitiveTypes.library.rds#//@elements.5"/>
+    </columns>
+  </elements>
+  <elements xsi:type="com.genmymodel.rds.core:Table" xmi:id="_9SnyYCgkEDylfJXSB87AoQ" name="Posicao">
+    <eAnnotations xmi:id="_9SnyYCgkEDylfJXSB87AoQ0" source="genmymodel">
+      <details xmi:id="_9SnyYCgkEDylfJXSB87AoQ00" key="uuid" value="_9SnyYCgkEDylfJXSB87AoQ"/>
+    </eAnnotations>
+    <columns xmi:id="_Ty7WkCglEDylfJXSB87AoQ" name="idPosicao" nullable="false" PK="true" size="15" primaryReferences="_kg1zcCgnEDylfJXSB87AoQ">
+      <eAnnotations xmi:id="_Ty7WkCglEDylfJXSB87AoQ0" source="genmymodel">
+        <details xmi:id="_Ty7WkCglEDylfJXSB87AoQ00" key="uuid" value="_Ty7WkCglEDylfJXSB87AoQ"/>
+      </eAnnotations>
+      <type href="pathmap://RDS_LIBRARIES/RdsPrimitiveTypes.library.rds#//@elements.5"/>
+    </columns>
+    <columns xmi:id="_0c1A8CglEDylfJXSB87AoQ" name="Nome" size="30">
+      <eAnnotations xmi:id="_0c1A8CglEDylfJXSB87AoQ0" source="genmymodel">
+        <details xmi:id="_0c1A8CglEDylfJXSB87AoQ00" key="uuid" value="_0c1A8CglEDylfJXSB87AoQ"/>
+      </eAnnotations>
+      <type href="pathmap://RDS_LIBRARIES/RdsPrimitiveTypes.library.rds#//@elements.1"/>
+    </columns>
+  </elements>
+  <elements xsi:type="com.genmymodel.rds.core:Table" xmi:id="_BhTZUCglEDylfJXSB87AoQ" name="Equipe">
+    <eAnnotations xmi:id="_BhTZUCglEDylfJXSB87AoQ0" source="genmymodel">
+      <details xmi:id="_BhTZUCglEDylfJXSB87AoQ00" key="uuid" value="_BhTZUCglEDylfJXSB87AoQ"/>
+    </eAnnotations>
+    <columns xmi:id="_jYwb8CglEDylfJXSB87AoQ" name="idEquipe" nullable="false" PK="true" size="15" primaryReferences="_IAhCACgxEDylfJXSB87AoQ _Sw2_ICgxEDylfJXSB87AoQ _WcdHICgxEDylfJXSB87AoQ">
+      <eAnnotations xmi:id="_jYwb8CglEDylfJXSB87AoQ0" source="genmymodel">
+        <details xmi:id="_jYwb8CglEDylfJXSB87AoQ00" key="uuid" value="_jYwb8CglEDylfJXSB87AoQ"/>
+      </eAnnotations>
+      <type href="pathmap://RDS_LIBRARIES/RdsPrimitiveTypes.library.rds#//@elements.5"/>
+    </columns>
+    <columns xmi:id="_y1SJcCgnEDylfJXSB87AoQ" name="idJogador" size="25" primaryReferences="_5pgPQCgnEDylfJXSB87AoQ">
+      <eAnnotations xmi:id="_y1SJcCgnEDylfJXSB87AoQ0" source="genmymodel">
+        <details xmi:id="_y1SJcCgnEDylfJXSB87AoQ00" key="uuid" value="_y1SJcCgnEDylfJXSB87AoQ"/>
+      </eAnnotations>
+      <type href="pathmap://RDS_LIBRARIES/RdsPrimitiveTypes.library.rds#//@elements.5"/>
+    </columns>
+    <columns xmi:id="_CC3G4CgoEDylfJXSB87AoQ" name="Nome" size="30">
+      <eAnnotations xmi:id="_CC3G4CgoEDylfJXSB87AoQ0" source="genmymodel">
+        <details xmi:id="_CC3G4CgoEDylfJXSB87AoQ00" key="uuid" value="_CC3G4CgoEDylfJXSB87AoQ"/>
+      </eAnnotations>
+      <type href="pathmap://RDS_LIBRARIES/RdsPrimitiveTypes.library.rds#//@elements.1"/>
+    </columns>
+    <columns xmi:id="_0BXQICgpEDylfJXSB87AoQ" name="Tecnico" size="30">
+      <eAnnotations xmi:id="_0BXQICgpEDylfJXSB87AoQ0" source="genmymodel">
+        <details xmi:id="_0BXQICgpEDylfJXSB87AoQ00" key="uuid" value="_0BXQICgpEDylfJXSB87AoQ"/>
+      </eAnnotations>
+      <type href="pathmap://RDS_LIBRARIES/RdsPrimitiveTypes.library.rds#//@elements.1"/>
+    </columns>
+  </elements>
+  <elements xsi:type="com.genmymodel.rds.core:Table" xmi:id="_C64bYCglEDylfJXSB87AoQ" name="Estadio">
+    <eAnnotations xmi:id="_C64bYCglEDylfJXSB87AoQ0" source="genmymodel">
+      <details xmi:id="_C64bYCglEDylfJXSB87AoQ00" key="uuid" value="_C64bYCglEDylfJXSB87AoQ"/>
+    </eAnnotations>
+    <columns xmi:id="_wcoh8CglEDylfJXSB87AoQ" name="IdEstadio" nullable="false" PK="true" size="20" primaryReferences="_aa7H0CgxEDylfJXSB87AoQ">
+      <eAnnotations xmi:id="_wcoh8CglEDylfJXSB87AoQ0" source="genmymodel">
+        <details xmi:id="_wcoh8CglEDylfJXSB87AoQ00" key="uuid" value="_wcoh8CglEDylfJXSB87AoQ"/>
+      </eAnnotations>
+      <type href="pathmap://RDS_LIBRARIES/RdsPrimitiveTypes.library.rds#//@elements.5"/>
+    </columns>
+    <columns xmi:id="_jUsT8CgoEDylfJXSB87AoQ" name="IdEquipe" foreignReferences="_IAhCACgxEDylfJXSB87AoQ" unique="true">
+      <eAnnotations xmi:id="_jUsT8CgoEDylfJXSB87AoQ0" source="genmymodel">
+        <details xmi:id="_jUsT8CgoEDylfJXSB87AoQ00" key="uuid" value="_jUsT8CgoEDylfJXSB87AoQ"/>
+      </eAnnotations>
+      <type href="pathmap://RDS_LIBRARIES/RdsPrimitiveTypes.library.rds#//@elements.5"/>
+    </columns>
+    <columns xmi:id="_QG6QcCgoEDylfJXSB87AoQ" name="Nome" size="30">
+      <eAnnotations xmi:id="_QG6QcCgoEDylfJXSB87AoQ0" source="genmymodel">
+        <details xmi:id="_QG6QcCgoEDylfJXSB87AoQ00" key="uuid" value="_QG6QcCgoEDylfJXSB87AoQ"/>
+      </eAnnotations>
+      <type href="pathmap://RDS_LIBRARIES/RdsPrimitiveTypes.library.rds#//@elements.1"/>
+    </columns>
+    <columns xmi:id="_0R5b8CgoEDylfJXSB87AoQ" name="Capacidade">
+      <eAnnotations xmi:id="_0R5b8CgoEDylfJXSB87AoQ0" source="genmymodel">
+        <details xmi:id="_0R5b8CgoEDylfJXSB87AoQ00" key="uuid" value="_0R5b8CgoEDylfJXSB87AoQ"/>
+      </eAnnotations>
+      <type href="pathmap://RDS_LIBRARIES/RdsPrimitiveTypes.library.rds#//@elements.5"/>
+    </columns>
+    <columns xmi:id="_Fa7ZcCgpEDylfJXSB87AoQ" name="Cidade" size="20">
+      <eAnnotations xmi:id="_Fa7ZcCgpEDylfJXSB87AoQ0" source="genmymodel">
+        <details xmi:id="_Fa7ZcCgpEDylfJXSB87AoQ00" key="uuid" value="_Fa7ZcCgpEDylfJXSB87AoQ"/>
+      </eAnnotations>
+      <type href="pathmap://RDS_LIBRARIES/RdsPrimitiveTypes.library.rds#//@elements.1"/>
+    </columns>
+    <columns xmi:id="_IjHSYCgpEDylfJXSB87AoQ" name="Bairro" size="20">
+      <eAnnotations xmi:id="_IjHSYCgpEDylfJXSB87AoQ0" source="genmymodel">
+        <details xmi:id="_IjHSYCgpEDylfJXSB87AoQ00" key="uuid" value="_IjHSYCgpEDylfJXSB87AoQ"/>
+      </eAnnotations>
+      <type href="pathmap://RDS_LIBRARIES/RdsPrimitiveTypes.library.rds#//@elements.1"/>
+    </columns>
+  </elements>
+  <elements xsi:type="com.genmymodel.rds.core:Table" xmi:id="_GslLYCglEDylfJXSB87AoQ" name="Partida">
+    <eAnnotations xmi:id="_GslLYCglEDylfJXSB87AoQ0" source="genmymodel">
+      <details xmi:id="_GslLYCglEDylfJXSB87AoQ00" key="uuid" value="_GslLYCglEDylfJXSB87AoQ"/>
+    </eAnnotations>
+    <columns xmi:id="_HmrJMCgyEDylfJXSB87AoQ" name="IdPartida" PK="true">
+      <eAnnotations xmi:id="_HmrJMCgyEDylfJXSB87AoQ0" source="genmymodel">
+        <details xmi:id="_HmrJMCgyEDylfJXSB87AoQ00" key="uuid" value="_HmrJMCgyEDylfJXSB87AoQ"/>
+      </eAnnotations>
+      <type href="pathmap://RDS_LIBRARIES/RdsPrimitiveTypes.library.rds#//@elements.5"/>
+    </columns>
+    <columns xmi:id="_UX918CgoEDylfJXSB87AoQ" name="IdEstadio" size="20" foreignReferences="_aa7H0CgxEDylfJXSB87AoQ">
+      <eAnnotations xmi:id="_UX918CgoEDylfJXSB87AoQ0" source="genmymodel">
+        <details xmi:id="_UX918CgoEDylfJXSB87AoQ00" key="uuid" value="_UX918CgoEDylfJXSB87AoQ"/>
+      </eAnnotations>
+      <type href="pathmap://RDS_LIBRARIES/RdsPrimitiveTypes.library.rds#//@elements.5"/>
+    </columns>
+    <columns xmi:id="_RbD_8CgoEDylfJXSB87AoQ" name="Data" nullable="false">
+      <eAnnotations xmi:id="_RbD_8CgoEDylfJXSB87AoQ0" source="genmymodel">
+        <details xmi:id="_RbD_8CgoEDylfJXSB87AoQ00" key="uuid" value="_RbD_8CgoEDylfJXSB87AoQ"/>
+      </eAnnotations>
+      <type href="pathmap://RDS_LIBRARIES/RdsPrimitiveTypes.library.rds#//@elements.13"/>
+    </columns>
+    <columns xmi:id="_ThCN8CgoEDylfJXSB87AoQ" name="Hora">
+      <eAnnotations xmi:id="_ThCN8CgoEDylfJXSB87AoQ0" source="genmymodel">
+        <details xmi:id="_ThCN8CgoEDylfJXSB87AoQ00" key="uuid" value="_ThCN8CgoEDylfJXSB87AoQ"/>
+      </eAnnotations>
+      <type href="pathmap://RDS_LIBRARIES/RdsPrimitiveTypes.library.rds#//@elements.5"/>
+    </columns>
+    <columns xmi:id="_ZrUwgCgpEDylfJXSB87AoQ" name="TimeCasa" foreignReferences="_Sw2_ICgxEDylfJXSB87AoQ">
+      <eAnnotations xmi:id="_ZrUwgCgpEDylfJXSB87AoQ0" source="genmymodel">
+        <details xmi:id="_ZrUwgCgpEDylfJXSB87AoQ00" key="uuid" value="_ZrUwgCgpEDylfJXSB87AoQ"/>
+      </eAnnotations>
+      <type href="pathmap://RDS_LIBRARIES/RdsPrimitiveTypes.library.rds#//@elements.5"/>
+    </columns>
+    <columns xmi:id="_PMwqcCgqEDylfJXSB87AoQ" name="TimeVisit" foreignReferences="_WcdHICgxEDylfJXSB87AoQ">
+      <eAnnotations xmi:id="_PMwqcCgqEDylfJXSB87AoQ0" source="genmymodel">
+        <details xmi:id="_PMwqcCgqEDylfJXSB87AoQ00" key="uuid" value="_PMwqcCgqEDylfJXSB87AoQ"/>
+      </eAnnotations>
+      <type href="pathmap://RDS_LIBRARIES/RdsPrimitiveTypes.library.rds#//@elements.5"/>
+    </columns>
+    <columns xmi:id="_DRMBkCgwEDylfJXSB87AoQ" name="Campeonato" size="15">
+      <eAnnotations xmi:id="_DRMBkCgwEDylfJXSB87AoQ0" source="genmymodel">
+        <details xmi:id="_DRMBkCgwEDylfJXSB87AoQ00" key="uuid" value="_DRMBkCgwEDylfJXSB87AoQ"/>
+      </eAnnotations>
+      <type href="pathmap://RDS_LIBRARIES/RdsPrimitiveTypes.library.rds#//@elements.1"/>
+    </columns>
+  </elements>
+  <elements xsi:type="com.genmymodel.rds.core:Reference" xmi:id="_kg1zcCgnEDylfJXSB87AoQ" primaryKeyColumns="_Ty7WkCglEDylfJXSB87AoQ" foreignKeyColumns="_fL5IACgnEDylfJXSB87AoQ">
+    <eAnnotations xmi:id="_kg1zcCgnEDylfJXSB87AoQ0" source="genmymodel">
+      <details xmi:id="_kg1zcCgnEDylfJXSB87AoQ00" key="uuid" value="_kg1zcCgnEDylfJXSB87AoQ"/>
+    </eAnnotations>
+  </elements>
+  <elements xsi:type="com.genmymodel.rds.core:Reference" xmi:id="_5pgPQCgnEDylfJXSB87AoQ" primaryKeyColumns="_y1SJcCgnEDylfJXSB87AoQ" foreignKeyColumns="_eDpYcCglEDylfJXSB87AoQ">
+    <eAnnotations xmi:id="_5pgPQCgnEDylfJXSB87AoQ0" source="genmymodel">
+      <details xmi:id="_5pgPQCgnEDylfJXSB87AoQ00" key="uuid" value="_5pgPQCgnEDylfJXSB87AoQ"/>
+    </eAnnotations>
+  </elements>
+  <elements xsi:type="com.genmymodel.rds.core:Reference" xmi:id="_IAhCACgxEDylfJXSB87AoQ" primaryKeyColumns="_jYwb8CglEDylfJXSB87AoQ" foreignKeyColumns="_jUsT8CgoEDylfJXSB87AoQ">
+    <eAnnotations xmi:id="_IAhCACgxEDylfJXSB87AoQ0" source="genmymodel">
+      <details xmi:id="_IAhCACgxEDylfJXSB87AoQ00" key="uuid" value="_IAhCACgxEDylfJXSB87AoQ"/>
+    </eAnnotations>
+  </elements>
+  <elements xsi:type="com.genmymodel.rds.core:Reference" xmi:id="_Sw2_ICgxEDylfJXSB87AoQ" primaryKeyColumns="_jYwb8CglEDylfJXSB87AoQ" foreignKeyColumns="_ZrUwgCgpEDylfJXSB87AoQ">
+    <eAnnotations xmi:id="_Sw2_ICgxEDylfJXSB87AoQ0" source="genmymodel">
+      <details xmi:id="_Sw2_ICgxEDylfJXSB87AoQ00" key="uuid" value="_Sw2_ICgxEDylfJXSB87AoQ"/>
+    </eAnnotations>
+  </elements>
+  <elements xsi:type="com.genmymodel.rds.core:Reference" xmi:id="_WcdHICgxEDylfJXSB87AoQ" primaryKeyColumns="_jYwb8CglEDylfJXSB87AoQ" foreignKeyColumns="_PMwqcCgqEDylfJXSB87AoQ">
+    <eAnnotations xmi:id="_WcdHICgxEDylfJXSB87AoQ0" source="genmymodel">
+      <details xmi:id="_WcdHICgxEDylfJXSB87AoQ00" key="uuid" value="_WcdHICgxEDylfJXSB87AoQ"/>
+    </eAnnotations>
+  </elements>
+  <elements xsi:type="com.genmymodel.rds.core:Reference" xmi:id="_aa7H0CgxEDylfJXSB87AoQ" primaryKeyColumns="_wcoh8CglEDylfJXSB87AoQ" foreignKeyColumns="_UX918CgoEDylfJXSB87AoQ">
+    <eAnnotations xmi:id="_aa7H0CgxEDylfJXSB87AoQ0" source="genmymodel">
+      <details xmi:id="_aa7H0CgxEDylfJXSB87AoQ00" key="uuid" value="_aa7H0CgxEDylfJXSB87AoQ"/>
+    </eAnnotations>
+  </elements>
+</com.genmymodel.rds.core:Database>
