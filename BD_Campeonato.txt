@@ -1,0 +1,167 @@
+-- Criando um banco de dados
+CREATE DATABASE BD_Campeonato_Basquete;
+
+-- Selecionando o banco de dados para usar
+USE BD_Campeonato_Basquete;
+
+-- Criando a Tabela Posicao
+CREATE TABLE Posicao (
+	IdPosicao INTEGER PRIMARY KEY,
+	Nome VARCHAR(30)  NOT NULL
+);
+
+-- Criando a Tabela Jogador
+CREATE TABLE Jogador (
+	IdJogador INTEGER PRIMARY KEY ,
+    IdEquipe INTEGER Forekey
+	Nome VARCHAR(30)  NOT NULL
+);
+
+-- Criando a Tabela Jogador
+CREATE TABLE Jogador (
+    IdJogador integer NOT NULL,
+    IdEquipe integer NOT NULL,
+    IdPosicao integer NOT NULL,
+    Nome varchar(30),
+    DtNascimento date,
+    NroCamiseta integer,
+    PRIMARY KEY (IdJogador)
+       );
+       
+ALTER TABLE Orders
+ADD FOREIGN KEY (IdEquipe) REFERENCES Equipe(IdEquipe),
+    FOREIGN KEY (IdPosicao) REFERENCES Posicao(IdPosicao);-- Criando um banco de dados
+CREATE DATABASE BD_Campeonato_Basquete;
+
+-- Selecionando o banco de dados para usar
+USE BD_Campeonato_Basquete;
+
+-- Criando a Tabela Posicao
+CREATE TABLE Posicao (
+	IdPosicao INTEGER PRIMARY KEY,
+	Nome VARCHAR(30)  NOT NULL
+);
+
+-- Criando a Tabela Jogador
+CREATE TABLE Jogador (
+	IdJogador INTEGER PRIMARY KEY ,
+    IdEquipe INTEGER Forekey
+	Nome VARCHAR(30)  NOT NULL
+);
+
+-- Criando a Tabela Jogador
+CREATE TABLE Jogador
+(IdJogador int NOT NULL,
+Nome varchar(255) NOT NULL,
+IdPosicao int NOT NULL,
+IdEquipe int NOT NULL,
+DtNascimento date,
+NroCamiseta integer,
+Primary Key (IdJogador),
+foreign key(IdEquipe) REFERENCES Equipe(IdEquipe),
+FOREIGN KEY (IdPosicao) REFERENCES Posicao(IdPosicao) );
+      
+SELECT * FROM Equipe
+
+-- Criando a Tabela Equipe
+CREATE TABLE Equipe (
+IdEquipe INTEGER NOT NULL,
+IdJogador INTEGER NOT NULL,
+Nome varchar(30) NOT NULL,
+Tecnico varchar(30) NOT NULL,
+Primary Key (IdEquipe),
+foreign key(IdJogador) REFERENCES Equipe(IdJogador) );
+
+ALTER TABLE Equipe
+ADD IdJogador integer;
+
+ALTER TABLE Equipe
+ADD foreign key(IdJogador) REFERENCES Equipe(IdJogador);
+
+-- Criando a Tabela Estadio
+CREATE TABLE Estadio (
+IdEstadio INTEGER NOT NULL,
+IdEquipe INTEGER NOT NULL,
+Nome varchar(30) NOT NULL,
+Capacidade integer NOT NULL,
+Cidade varchar (20),
+Bairro varchar (20),
+Primary Key (IdEstadio),
+foreign key(IdEquipe) REFERENCES Equipe(IdEquipe) );
+
+-- Criando a Tabela Partida
+CREATE TABLE Partida (
+IdPartida INTEGER NOT NULL,
+IdEstadio INTEGER NOT NULL,
+Data date NOT NULL,
+Hora integer NOT NULL,
+TimeCasa integer NOT NULL,
+TimeVisit integer NOT NULL,
+Campeonato varchar(20),
+Primary Key (IdPartida),
+foreign key(IdEstadio) REFERENCES Estadio(IdEstadio),
+foreign key(TimeCasa) REFERENCES Equipe(IdEquipe) ,
+foreign key(TimeVisit) REFERENCES Equipe(IdEquipe) );
+
+SELECT * FROM Posicao
+ -- Preencher a tabela Posicao
+INSERT INTO Posicao (IdPosicao, Nome) VALUES (1, 'Armador');
+INSERT INTO Posicao (IdPosicao, Nome) VALUES (2, 'Ala-Armador');
+INSERT INTO Posicao (IdPosicao, Nome) VALUES (3, 'Ala');
+INSERT INTO Posicao (IdPosicao, Nome) VALUES (4, 'Ala-Pivô');
+INSERT INTO Posicao (IdPosicao, Nome) VALUES (5, 'Pivô');
+
+
+ -- Preencher a tabela Equipe
+ SELECT * FROM Equipe
+ INSERT INTO Equipe (IdEquipe, Nome, Tecnico) VALUES (1, 'Boston Celtics', 'Joe Mazzulla');
+ INSERT INTO Equipe (IdEquipe, Nome, Tecnico) VALUES (2, 'Los Angeles Lakers', 'Darvin Ham');
+
+ -- Preencher a tabela Jogador
+SELECT * FROM Jogador
+INSERT INTO Jogador (IdJogador, Nome, IdPosicao, IdEquipe, DtNascimento, NroCamiseta) VALUES (1, 'Jayson Tatum', 4, 1,'1998-03-03', 0 );
+INSERT INTO Jogador (IdJogador, Nome, IdPosicao, IdEquipe, DtNascimento, NroCamiseta) VALUES (2, 'Jaylen Brown', 3, 1,'1996-10-24', 7 );
+INSERT INTO Jogador (IdJogador, Nome, IdPosicao, IdEquipe, DtNascimento, NroCamiseta) VALUES (3, 'Kristaps Porzingis', 4, 1,'1995-08-02', 8 );
+INSERT INTO Jogador (IdJogador, Nome, IdPosicao, IdEquipe, DtNascimento, NroCamiseta) VALUES (4, 'Derrick White', 1, 1,'1994-07-02', 9 );
+INSERT INTO Jogador (IdJogador, Nome, IdPosicao, IdEquipe, DtNascimento, NroCamiseta) VALUES (5, 'Malcolm Brogdon', 1, 1,'1992-12-11', 13 );
+INSERT INTO Jogador (IdJogador, Nome, IdPosicao, IdEquipe, DtNascimento, NroCamiseta) VALUES (6, 'LeBron James', 4, 2,'1984-12-30', 6 );
+INSERT INTO Jogador (IdJogador, Nome, IdPosicao, IdEquipe, DtNascimento, NroCamiseta) VALUES (7, 'Anthony Daves', 5, 2,'1993-03-11', 3 );
+INSERT INTO Jogador (IdJogador, Nome, IdPosicao, IdEquipe, DtNascimento, NroCamiseta) VALUES (8, 'Rui Hachimura', 4, 2,'1998-02-08', 28 );
+INSERT INTO Jogador (IdJogador, Nome, IdPosicao, IdEquipe, DtNascimento, NroCamiseta) VALUES (9, 'DAngelo Russel', 1, 2,'1996-02-23', 1 );
+INSERT INTO Jogador (IdJogador, Nome, IdPosicao, IdEquipe, DtNascimento, NroCamiseta) VALUES (10, 'Austin Reaves', 3, 2,'1998-05-29', 13 );
+
+ -- Preencher a tabela Estadio
+SELECT * FROM Estadio
+INSERT INTO Estadio (IdEstadio, IdEquipe,Nome,Capacidade,Cidade, Bairro) Values (1,1,'TD Garden',19580,'Boston', 'Nova Inglaterra');
+INSERT INTO Estadio (IdEstadio, IdEquipe,Nome,Capacidade,Cidade, Bairro) Values (2,2,'Crypto.com Arena',20000,'Los Angeles', 'Los Angeles');
+
+SELECT * FROM Partida
+INSERT INTO Partida (IdPartida,IdEstadio,Data,Hora,TimeCasa,TimeVisit,Campeonato) Values (1,1,'2023-09-04','22;00:00',1,2,'NBA');
+INSERT INTO Partida (IdPartida,IdEstadio,Data,Hora,TimeCasa,TimeVisit,Campeonato) Values (2,2,'2023-09-02','15;00:00',2,1,'NBA');
+
+
+--  Selecione Nome, Data de Nascimento e Equipe de todos jogadores que atuam em uma posição específica 
+SELECT Jogador.Nome, Jogador.DtNascimento, Equipe.Nome, Posicao.Nome
+FROM Jogador
+INNER JOIN Posicao ON Posicao.IdPosicao=Jogador.IdPosicao
+INNER JOIN Equipe ON Equipe.IdEquipe=Jogador.IdEquipe
+WHERE Posicao.Nome = 'Ala'
+ORDER BY Posicao.Nome;
+
+-- Selecione Nome, Nro de camisa e Posição de todos jogadores de um time específico 
+SELECT Jogador.Nome, Jogador.NroCamiseta, Posicao.Nome, Equipe.Nome
+FROM Jogador 
+INNER JOIN Posicao ON Posicao.IdPosicao=Jogador.IdPosicao
+INNER JOIN Equipe ON Equipe.IdEquipe=Jogador.IdEquipe
+WHERE Equipe.Nome = 'Boston Celtics';
+
+
+-- Selecione Nome, Bairro e Cidade de todos os estádios que tenham capacidade maior que 1000 lugares 
+SELECT Estadio.Nome, Estadio.Cidade, Estadio.Bairro, Estadio.Capacidade
+FROM Estadio WHERE Capacidade > 1000;
+
+-- Selecione todas informações de uma partida que acontecem em um estádio específico, por ordem de data da partida.
+SELECT Partida.IdPartida, Estadio.Nome AS Estadio, Partida.Data, Partida.Hora, Partida.TimeCasa, Partida.TimeVisit, Partida.Campeonato
+FROM Partida
+INNER JOIN Estadio ON Estadio.IdEstadio=Partida.IdEstadio
+ORDER BY Data;
