@@ -1,5 +1,5 @@
 # BD_Campeonato
-##Criação de um banco de dados em My SQL
+## Criação de um banco de dados em My SQL
 
 ### Crie um banco de dados para organizar partidas de um campeonato de qualquer esporte que preferir
 ### O banco de dados deverá gerenciar: - Jogador - Posições - Equipe - Estádio - Partida 
